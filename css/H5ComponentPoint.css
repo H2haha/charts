@@ -4,13 +4,13 @@
 
 
 }
-.h5_component .point{
+.h5_component_point .point{
      display:block;
      background-color: #ccc;
      position:absolute;
      border-radius:50%;
 }
-.h5_component .name{
+.h5_component_point .name{
     height:30px;
     width:100%;
     text-align: center;
@@ -19,7 +19,7 @@
     margin-top: -15px;
     font-size:22px;
 }
-.h5_component .per{
+.h5_component_point .per{
 
      font-size:.5em;
 
