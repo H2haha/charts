@@ -7,8 +7,12 @@ var H5ComponentBar =function(name,cfg){
         var name =$('<div class="name">');
         var rate =$('<div class="rate">');
         var per =$('<div class="per">');
+        var bgStyle='';
+           if( item[2]){
+            var bgStyle='style="background-color:'+item[2]+'"'
+           }
         var width =item[1]*100+'%';
-        rate.html('<div class="bg"></div>')
+        rate.html('<div class="bg" '+bgStyle+'></div>')
         rate.css('width',width);
         name.text(item[0]);
         per.text(width);
